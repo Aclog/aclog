@@ -1,2 +1,2 @@
 # MyApp
-This program has an authorization and registration system associated with the mysql database, and a function for outputting data to the application from mysql database tables
+This program has a MySQL database related authorization and registration system, a function to interact with applications from MySQL database tables, and automatic log parsing capabilities
