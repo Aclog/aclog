@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>706</width>
+    <height>425</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget_5">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>0</y>
+     <width>691</width>
+     <height>421</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_5">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_4">
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout">
+          <item>
+           <widget class="QPushButton" name="pushButton_2">
+            <property name="text">
+             <string>return</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton">
+            <property name="font">
+             <font>
+              <pointsize>40</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>run</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_3">
+            <property name="font">
+             <font>
+              <pointsize>40</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>load to db</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <item>
+           <widget class="QLabel" name="label_3">
+            <property name="text">
+             <string>path</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="comboBox_1">
+            <property name="font">
+             <font>
+              <pointsize>20</pointsize>
+             </font>
+            </property>
+            <item>
+             <property name="text">
+              <string>./logs/HDFS/</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>./logs/Linux/</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>./logs/Windows/</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>./logs/Mac/</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>./logs/Thunderbird/</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>./logs/HealthApp/</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>./logs/Andriod/</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>./logs/HPC/</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>./logs/Apache/</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>./logs/BGL/</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>./logs/OpenStack/</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>./logs/ZooKeeper/</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>./logs/Spark/</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>./logs/Hadoop/</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_4">
+            <property name="text">
+             <string>log_file</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="comboBox_2">
+            <property name="font">
+             <font>
+              <pointsize>20</pointsize>
+             </font>
+            </property>
+            <item>
+             <property name="text">
+              <string>HDFS_2k.log</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Linux_2k.log</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Windows_2k.log</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Mac_2k.log</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Thunderbird_2k.log</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>HealthApp_2k.log</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Andriod_2k.log</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>HPC_2k.log</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Apache_2k.log</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>BGL_2k.log</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>OpenStack_2k.log</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>ZooKeeper_2k.log</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Spark_2k.log</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Hadoop_2k.log</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <item>
+           <widget class="QLabel" name="label_5">
+            <property name="text">
+             <string>st</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QDoubleSpinBox" name="doubleSpinBox">
+            <property name="font">
+             <font>
+              <pointsize>20</pointsize>
+             </font>
+            </property>
+            <property name="singleStep">
+             <double>0.010000000000000</double>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_6">
+            <property name="text">
+             <string>depth</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QSpinBox" name="spinBox">
+            <property name="font">
+             <font>
+              <pointsize>20</pointsize>
+             </font>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QTextEdit" name="textEdit"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_3">
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>log_format</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="comboBox_3">
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+         </font>
+        </property>
+        <item>
+         <property name="text">
+          <string extracomment="ThunderBird">&lt;Label&gt; &lt;Timestamp&gt; &lt;Date&gt; &lt;User&gt; &lt;Month&gt; &lt;Day&gt; &lt;Time&gt; &lt;Location&gt; &lt;Component&gt;(\[&lt;PID&gt;\])?: &lt;Content&gt;</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>&lt;Date&gt; &lt;Time&gt; &lt;Level&gt; &lt;Component&gt;: &lt;Content&gt;</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string extracomment="Apache">\[&lt;Time&gt;\] \[&lt;Level&gt;\] &lt;Content&gt;</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string extracomment="Linux">'&lt;Month&gt; &lt;Date&gt; &lt;Time&gt; &lt;Level&gt; &lt;Component&gt;(\[&lt;PID&gt;\])?: &lt;Content&gt;'</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string extracomment="Zookeeper">'&lt;Date&gt; &lt;Time&gt; - &lt;Level&gt;  \[&lt;Node&gt;:&lt;Component&gt;@&lt;Id&gt;\] - &lt;Content&gt;'</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string extracomment="HDFS">'&lt;Date&gt; &lt;Time&gt; &lt;Pid&gt; &lt;Level&gt; &lt;Component&gt;: &lt;Content&gt;' </string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>regex</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="comboBox_4">
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+         </font>
+        </property>
+        <item>
+         <property name="text">
+          <string extracomment="ThunderBird">[r'(\d+\.){3}\d+']</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string extracomment="Spark">[r'(\d+\.){3}\d+', r'\b[KGTM]?B\b', r'([\w-]+\.){2,}[\w-]+']</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string extracomment="Apache">[r'(\d+\.){3}\d+']</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string extracomment="Linux">[r'(\d+\.){3}\d+', r'\d{2}:\d{2}:\d{2}']</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string extracomment="Zookeeper">[r'(/|)(\d+\.){3}\d+(:\d+)?']</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string extracomment="HDFS">[r'blk_-?\d+', r'(\d+\.){3}\d+(:\d+)?']</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

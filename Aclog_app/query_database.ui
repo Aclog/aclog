@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1026</width>
+    <height>428</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>10</pointsize>
+    <weight>50</weight>
+    <bold>false</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QPushButton" name="pushButton">
+         <property name="text">
+          <string>return</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="text">
+          <string>Enter DB name:</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox">
+       <item>
+        <property name="text">
+         <string>logs</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>Enter Table name:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_2">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <item>
+        <property name="text">
+         <string>apache_2k_log_structured</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>apache_templates</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>bgl_structured</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>bgl_templates</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>hadoop_structured</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>hadoop_templates</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>hdfs_structured</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>hdfs_templates</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>healthapp_structured</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>healthapp_templates</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>hpc_structured</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>hpc_templates</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>linux_structured</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>linux_templates</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>mac_structured</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>mac_templates</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>openssh_structured</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>openssh_templates</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>openstack_structured</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>openstack_templates</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>proxifier_structured</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>proxifier_templates</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>spark_structured</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>spark_templates</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>thunderbird_structured</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>thunderbird_templates</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>windows_structured</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>windows_templates</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>zookeeper_structured</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>zookeeper_templates</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QTableWidget" name="tableWidget">
+       <property name="rowCount">
+        <number>8</number>
+       </property>
+       <property name="columnCount">
+        <number>13</number>
+       </property>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <column>
+        <property name="text">
+         <string>1</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>2</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>3</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>4</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>5</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>6</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>7</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>8</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>9</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>10</string>
+        </property>
+       </column>
+       <column/>
+       <column/>
+       <column/>
+      </widget>
+     </item>
+     <item>
+      <widget class="QSpinBox" name="spinBox"/>
+     </item>
+     <item>
+      <widget class="QPushButton" name="b5">
+       <property name="text">
+        <string>Show Data</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
